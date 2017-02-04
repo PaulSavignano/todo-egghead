@@ -38,5 +38,22 @@ ul {
 }
 
 li {
-  list-style-type: none 
+  list-style-type: none
+}
+
+li span.delete-item {
+  visibility: hidden;
+}
+
+li span.delete-item a {
+  text-decoration: none;
+  color: red;
+}
+
+li:hover span.delete-item {
+  visibility: visible;
+}
+
+.error {
+  color: red;
 }
